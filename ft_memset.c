@@ -27,3 +27,15 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
+
+/*
+void	*ft_memset(void *strb, int c, size_t len)
+{
+	while (len > 0)
+	{
+		*((char *)strb) = (unsigned char)c;
+		strb++;
+		len--;
+	}
+	return (strb);
+} */
