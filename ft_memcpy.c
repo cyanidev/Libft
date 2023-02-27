@@ -30,3 +30,18 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+
+/*
+void	*ft_memcpy(void *dest, const void *src, size_t n)
+{
+	if (src == NULL && dest == NULL)
+		return (NULL);
+	while (n > 0)
+	{
+		*(char *)dest = *(char *)src;
+		((char *)src)++;
+		((char *)dest)++;
+		n--;
+	}
+	return (dest);
+}*/
